@@ -1,0 +1,48 @@
+#menu {
+height: 51px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(77, 75, 59);
+}
+
+li {
+    float: left;
+}
+li a:hover {
+    border-bottom: black 4px solid  ;
+}
+.input-nawigacja{
+    padding: 6px;
+    border-radius: 20%;
+    float: right;
+}
+#nawigacja-input{
+    padding: 9px;
+    padding-right: 100px;
+}
+.ikonka{
+    border-left: #ffffff 2px solid  ;
+    color: white;
+    padding: 14px;
+}
+.ikonka1{
+    padding: 8px;
+    color: white;
+    font-size: 33px;
+    padding-right: 20px;
+}
+#zdj1{
+    width: 20px;
+    height: 20px;
+}
