@@ -1,0 +1,70 @@
+#menu {
+    height: 51px;
+    border-radius: 7%;
+    position: fixed;
+    width: 100%;
+    margin-top: -8px;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(77, 75, 59);
+    }
+    
+    li {
+        float: left;
+    }
+    li a:hover {
+        border-bottom: teal 4px solid  ;
+        border-radius: 9%;
+    }
+    .input-nawigacja{
+        padding: 6px;
+        border-radius: 20%;
+        float: right;
+    }
+    #nawigacja-input{
+        padding: 9px;
+        padding-right: 100px;
+    }
+    .ikonka{
+        border-left: #ffffff 2px solid  ;
+        color: white;
+        padding: 14px;
+    }
+    .ikonka1{
+        padding: 8px;
+        color: white;
+        font-size: 33px;
+        padding-right: 20px;
+    }
+    #zdj1{
+        width: 20px;
+        height: 20px;
+    }
+    #logo-zdj{
+        width: 40px;
+        height: 50px;
+        padding-left: 5px;
+    }
+    #zdj-logo{
+      background-attachment: fixed;
+    }
+    .Role3213{
+        text-align: center;
+        border: 1px black solid;
+    
+    }
+    .cos15{
+        padding-top: 60px;
+    }

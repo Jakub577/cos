@@ -1,5 +1,9 @@
 #menu {
 height: 51px;
+border-radius: 7%;
+position: fixed;
+width: 100%;
+margin-top: -8px;
 }
 li a {
     display: block;
@@ -7,6 +11,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 ul {
     list-style-type: none;
@@ -20,7 +25,8 @@ li {
     float: left;
 }
 li a:hover {
-    border-bottom: black 4px solid  ;
+    border-bottom: teal 4px solid  ;
+    border-radius: 9%;
 }
 .input-nawigacja{
     padding: 6px;
@@ -45,4 +51,78 @@ li a:hover {
 #zdj1{
     width: 20px;
     height: 20px;
+}
+#logo-zdj{
+    width: 40px;
+    height: 50px;
+    padding-left: 5px;
+}
+#zdj-logo{
+  background-attachment: fixed;
+}
+.tło-o-grze{
+    padding: 50px;
+    margin-top: -20px;
+    background-color: rgba(103, 104, 42, 0.795);
+}
+.tło1123{
+  width: 100%;
+  height: 100%;
+  
+}
+.czcionka1{
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto ;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.Role1{
+    text-align: center;
+    
+}
+.tło-o{
+    border: red 5px outset;
+    background-color: rgb(235, 176, 66);
+    border-top-right-radius: 30px;
+}
+.mapa{
+    width: 100%;
+    height: 700px;
+}
+#logo-rito{
+    height: 200px;
+    width: 500px;
+    width: 100%;
+    height: 500px;
+    
+}
+.rito-logo{
+    width: 100%;
+ 
+    
+}
+#menu2{
+    background-color: rgba(39, 39, 39, 0.957);
+    
+    margin-bottom: -8px;
+    display: block;
+    margin-left: -50px;
+    margin-right: -50px;
+
+}
+.tekst50{
+ padding-left: 190px; 
+font-size: 29px;
+ text-align: center;
 }
